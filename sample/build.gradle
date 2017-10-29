@@ -5,18 +5,18 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.android.tools.build:gradle:3.0.0'
     }
 }
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.3"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
 
     defaultConfig {
         applicationId "com.yuyakaido.android.cardstackview.sample"
         minSdkVersion 14
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0.0"
     }
@@ -24,7 +24,7 @@ android {
 }
 
 ext {
-    supportLibVersion = '25.3.1'
+    supportLibVersion = '26.1.0'
 }
 
 dependencies {
